@@ -1,0 +1,121 @@
+{
+    "routeId": "route-8841",
+    "stops": [
+        {
+            "id": "stop-1",
+            "sequence": 1,
+            "customerName": "M. Okafor",
+            "address": "221 Queens Quay W, Toronto, ON M5J 2X2",
+            "parcelCount": 2,
+            "windowEnd": "2026-08-29T18:00:00-04:00",
+            "templateId": "tpl-pod-standard",
+            "dropZone": [
+                {
+                    "latitude": 43.6389,
+                    "longitude": -79.386
+                },
+                {
+                    "latitude": 43.6389,
+                    "longitude": -79.382
+                },
+                {
+                    "latitude": 43.6412,
+                    "longitude": -79.382
+                },
+                {
+                    "latitude": 43.6412,
+                    "longitude": -79.386
+                }
+            ]
+        },
+        {
+            "id": "stop-2",
+            "sequence": 2,
+            "customerName": "John Smith",
+            "address": "88 King St E, Toronto, ON M5C 1G5",
+            "parcelCount": 1,
+            "windowEnd": "2026-08-29T18:30:00-04:00",
+            "templateId": "tpl-pod-standard",
+            "dropZone": [
+                {
+                    "latitude": 43.6512,
+                    "longitude": -79.3772
+                },
+                {
+                    "latitude": 43.6512,
+                    "longitude": -79.3738
+                },
+                {
+                    "latitude": 43.6531,
+                    "longitude": -79.3738
+                },
+                {
+                    "latitude": 43.6531,
+                    "longitude": -79.3772
+                }
+            ]
+        },
+        {
+            "id": "stop-3",
+            "sequence": 3,
+            "customerName": "Sarah Khan",
+            "address": "120 Bay St, Toronto, ON M5J 2N8",
+            "parcelCount": 3,
+            "windowEnd": "2026-08-29T19:00:00-04:00",
+            "templateId": "tpl-pod-neighbour",
+            "dropZone": [
+                {
+                    "latitude": 43.6438,
+                    "longitude": -79.3815
+                },
+                {
+                    "latitude": 43.6438,
+                    "longitude": -79.3778
+                },
+                {
+                    "latitude": 43.6424,
+                    "longitude": -79.3778
+                },
+                {
+                    "latitude": 43.6424,
+                    "longitude": -79.3792
+                },
+                {
+                    "latitude": 43.6413,
+                    "longitude": -79.3792
+                },
+                {
+                    "latitude": 43.6413,
+                    "longitude": -79.3815
+                }
+            ]
+        },
+        {
+            "id": "stop-4",
+            "sequence": 4,
+            "customerName": "Ahmed Ali",
+            "address": "20 Front St W, Toronto, ON M5J 1C3",
+            "parcelCount": 2,
+            "windowEnd": "2026-08-29T19:30:00-04:00",
+            "templateId": "tpl-pod-standard",
+            "dropZone": [
+                {
+                    "latitude": 43.6458,
+                    "longitude": -79.3828
+                },
+                {
+                    "latitude": 43.6458,
+                    "longitude": -79.3793
+                },
+                {
+                    "latitude": 43.6475,
+                    "longitude": -79.3793
+                },
+                {
+                    "latitude": 43.6475,
+                    "longitude": -79.3828
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+[
+  {
+    "templateId": "tpl-pod-standard",
+    "name": "Standard Proof of Delivery",
+    "fields": [
+      {
+        "id": "f1",
+        "type": "DROPDOWN",
+        "label": "Outcome",
+        "isRequired": true,
+        "options": ["Handed to customer", "Left in safe place", "Neighbour", "Refused"]
+      },
+      {
+        "id": "f2",
+        "type": "TEXT",
+        "label": "Neighbour's unit number",
+        "isRequired": true,
+        "visibleWhen": {
+          "fieldId": "f1",
+          "equals": "Neighbour"
+        }
+      },
+      {
+        "id": "f3",
+        "type": "TEXTAREA",
+        "label": "Reason for refusal",
+        "isRequired": true,
+        "visibleWhen": {
+          "fieldId": "f1",
+          "equals": "Refused"
+        }
+      },
+      {
+        "id": "f4",
+        "type": "DATETIME",
+        "label": "Delivered at",
+        "isRequired": true
+      },
+      {
+        "id": "f5",
+        "type": "CHECKBOX",
+        "label": "Checks performed",
+        "isRequired": false,
+        "options": ["ID verified", "Age verified", "Packaging intact"]
+      }
+    ]
+  },
+  {
+    "templateId": "tpl-pod-neighbour",
+    "name": "Neighbour Dropoff Verification",
+    "fields": [
+      {
+        "id": "n1",
+        "type": "TEXT",
+        "label": "Neighbour's Name",
+        "isRequired": true
+      },
+      {
+        "id": "n2",
+        "type": "TEXT",
+        "label": "Unit Number",
+        "isRequired": true
+      },
+      {
+        "id": "n3",
+        "type": "DATETIME",
+        "label": "Dropoff Time",
+        "isRequired": true
+      },
+      {
+        "id": "n4",
+        "type": "CHECKBOX",
+        "label": "Safety Checks",
+        "isRequired": false,
+        "options": ["Left in secure box", "Signed by neighbour"]
+      }
+    ]
+  }
+]

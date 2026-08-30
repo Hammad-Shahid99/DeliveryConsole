@@ -1,0 +1,195 @@
+import { StyleSheet } from 'react-native';
+import dimensions from '../../utils/dimensions';
+
+export default StyleSheet.create({
+  background: {
+    flex: 1,
+    backgroundColor: '#F9FAFB',
+  },
+  container: {
+    flex: 1,
+  },
+  scrollContainer: {
+    paddingBottom: dimensions.height(4),
+  },
+  mainContainer: {
+    flexDirection: 'row',
+    backgroundColor: '#FFFFFF',
+    borderWidth: dimensions.width(0.2),
+    borderColor: '#E5E7EB',
+    borderRadius: dimensions.height(1.5),
+    padding: dimensions.width(4),
+    marginHorizontal: dimensions.width(4),
+    marginVertical: dimensions.height(1),
+    shadowColor: '#000000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.05,
+    shadowRadius: 4,
+    elevation: 2,
+  },
+  badgeCircle: {
+    width: dimensions.width(9),
+    height: dimensions.width(9),
+    borderRadius: dimensions.width(4.5),
+    backgroundColor: '#1E60D5',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  badgeText: {
+    color: '#FFFFFF',
+    fontSize: dimensions.height(2.0),
+    fontWeight: 'bold',
+  },
+  infoColumn: {
+    flex: 1,
+    marginLeft: dimensions.width(4),
+  },
+  nameText: {
+    fontSize: dimensions.height(2.2),
+    fontWeight: '700',
+    color: '#000000',
+  },
+  addressText: {
+    fontSize: dimensions.height(1.8),
+    color: '#4B5563',
+    marginTop: dimensions.height(0.5),
+    lineHeight: dimensions.height(2.6),
+  },
+  infoRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: dimensions.height(1.0),
+  },
+  infoText: {
+    fontSize: dimensions.height(1.8),
+    color: '#4B5563',
+    marginLeft: dimensions.width(2),
+  },
+  formContainer: {
+    marginTop: dimensions.height(1.5),
+  },
+  fieldContainer: {
+    marginHorizontal: dimensions.width(4),
+    marginVertical: dimensions.height(1.2),
+  },
+  fieldLabel: {
+    fontSize: dimensions.height(1.9),
+    fontWeight: '700',
+    color: '#111827',
+    marginBottom: dimensions.height(0.8),
+  },
+  requiredAsterisk: {
+    color: '#DC2626',
+  },
+  textInput: {
+    backgroundColor: '#FFFFFF',
+    borderWidth: dimensions.width(0.2),
+    borderColor: '#BDC5D0',
+    borderRadius: dimensions.height(1),
+    height: dimensions.height(6),
+    paddingHorizontal: dimensions.width(4),
+    fontSize: dimensions.height(1.8),
+    color: '#000000',
+  },
+  textareaInput: {
+    backgroundColor: '#FFFFFF',
+    borderWidth: dimensions.width(0.2),
+    borderColor: '#BDC5D0',
+    borderRadius: dimensions.height(1),
+    height: dimensions.height(12),
+    paddingHorizontal: dimensions.width(4),
+    paddingTop: dimensions.width(3),
+    fontSize: dimensions.height(1.8),
+    color: '#000000',
+    textAlignVertical: 'top',
+  },
+  inputError: {
+    borderColor: '#EF4444',
+    borderWidth: 1.5,
+  },
+  errorText: {
+    color: '#EF4444',
+    fontSize: dimensions.height(1.6),
+    marginTop: dimensions.height(0.4),
+    fontWeight: '600',
+  },
+  dropdownOptionsContainer: {
+    backgroundColor: '#FFFFFF',
+    borderWidth: dimensions.width(0.2),
+    borderColor: '#BDC5D0',
+    borderRadius: dimensions.height(1.2),
+    overflow: 'hidden',
+  },
+  optionButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingVertical: dimensions.height(1.8),
+    paddingHorizontal: dimensions.width(4),
+    borderBottomWidth: 1,
+    borderBottomColor: '#F3F4F6',
+  },
+  optionButtonSelected: {
+    backgroundColor: '#1E60D5',
+  },
+  optionText: {
+    fontSize: dimensions.height(1.8),
+    color: '#111827',
+  },
+  optionTextSelected: {
+    color: '#FFFFFF',
+    fontWeight: '700',
+  },
+  checkboxesList: {
+    paddingLeft: dimensions.width(1),
+  },
+  checkboxRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginVertical: dimensions.height(0.8),
+  },
+  checkboxLabel: {
+    fontSize: dimensions.height(1.8),
+    color: '#111827',
+    marginLeft: dimensions.width(3),
+  },
+  dateTimeField: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#E5E7EB',
+    borderWidth: dimensions.width(0.2),
+    borderColor: '#BDC5D0',
+    borderRadius: dimensions.height(1),
+    height: dimensions.height(6),
+    paddingHorizontal: dimensions.width(3),
+  },
+  dateTimeIcon: {
+    marginRight: dimensions.width(2),
+  },
+  dateTimeText: {
+    fontSize: dimensions.height(1.8),
+    color: '#4B5563',
+  },
+  unsupportedCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#FEF3C7',
+    borderWidth: 1,
+    borderColor: '#F59E0B',
+    borderRadius: dimensions.height(1),
+    padding: dimensions.width(4),
+    marginHorizontal: dimensions.width(4),
+    marginVertical: dimensions.height(1),
+  },
+  unsupportedText: {
+    fontSize: dimensions.height(1.7),
+    color: '#B45309',
+    marginLeft: dimensions.width(3),
+    flex: 1,
+  },
+  saveButton: {
+    marginHorizontal: dimensions.width(4),
+    marginTop: dimensions.height(3),
+    marginBottom: dimensions.height(2),
+  },
+});
